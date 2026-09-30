@@ -1,0 +1,20 @@
+node_modules/
+.env
+.env.local
+.env.*.local
+
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+
+# Generated upload fixtures (created at runtime by fileUploadHelper)
+test-data/generated/
+
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

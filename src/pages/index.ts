@@ -1,0 +1,14 @@
+export { BasePage, ApplicationStepPage } from './BasePage';
+export { LoginPage } from './LoginPage';
+export { DashboardPage } from './DashboardPage';
+export { ClientInformationPage } from './ClientInformationPage';
+export { AddressContactPage } from './AddressContactPage';
+export { KycFinancialPage } from './KycFinancialPage';
+export { ProductCatalogPage } from './ProductCatalogPage';
+export { ProductConfigurationPage } from './ProductConfigurationPage';
+export { RiderSelectionPage } from './RiderSelectionPage';
+export { BeneficiaryPage } from './BeneficiaryPage';
+export { DocumentUploadPage } from './DocumentUploadPage';
+export { ReviewPage } from './ReviewPage';
+export { ConfirmationPage } from './ConfirmationPage';
+export { ApplicationStatusPage } from './ApplicationStatusPage';

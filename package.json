@@ -1,0 +1,25 @@
+{
+  "name": "insurance-order-entry-playwright-automation",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Playwright QA automation for the Insurance Order Entry Platform - TalentFarm Submission 2 (8 high-level test cases)",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:seeded": "playwright test --grep @seeded-defect",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "trace": "playwright show-trace",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
